@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>Valobtify.EFCore.Core</Title>
+        <Description>Core of Valobtify.EFCore nuget pacakges</Description>
+        <PackageIcon>Valobtify_Logo.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENCE</PackageLicenseFile>
+        <PackageTags>valobtify;value object;ef;entity framework; c#; value object;</PackageTags>
+        <RepositoryUrl>https://github.com/Valobtify/Valobtify.EFCore.Core</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\LICENCE">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+      <None Include="..\README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+      <None Include="..\Valobtify_Logo.png">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+        <PackageReference Include="Valobtify" Version="2.2.0" />
+    </ItemGroup>
+
+</Project>
